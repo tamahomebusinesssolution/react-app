@@ -3,7 +3,9 @@ import {Link } from 'react-router-dom';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Swal2 from 'sweetalert2';
-export default function Services(){
+
+
+export default function Contact(){
 	const form = useRef();
 	const sendEmail = (e) => {
 	    e.preventDefault();
@@ -11,9 +13,9 @@ export default function Services(){
 	    emailjs.sendForm('service_xj8z73i', 'template_u9pf9by', form.current, 'VCf1vL_xRvO85XSJL')
 	      .then((result) => {
 	      	Swal2.fire({
-	      	    title: 'Send successful!',
+	      	    title: 'Thank You!',
 	      	    icon: 'success',
-	      	    text: 'Thank You!'
+	      	    text: 'Send successful!'
 	      	})
 	      }, (error) => {
 	          console.log(error.text);
