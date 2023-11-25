@@ -80,7 +80,9 @@ export default function AppNavBar() {
 		        	                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
 		        	                    <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
 		        	                </span> 
-		        	                <div class="timeline-image"><img class="rounded-circle img-fluid" src="../assets/img/services/1.jpg" alt="..." />
+		        	                <div class="timeline-image">
+		        	                	<img class="rounded-circle" src={require("../assets/img/services/1.jpg")} width={150} height={150} alt="Responsive image" />
+
 		        	                </div>
 		        	                <h4 class="my-3">Entrepreneurship Coaching</h4>
 		        	                <p class="text-right text-muted ">As professional entrepreneurship coaches we specialize in walking the line between being a cheerleader and a harsh realist. We push you to new heights that are sometimes uncomfortable but are necessary to grow and scale your business. We stick with you through thick and thin and make sure all objectives are growth driven so you start seeing results quickly.</p>
