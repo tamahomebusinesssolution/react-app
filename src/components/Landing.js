@@ -6,12 +6,13 @@ import PageNotFound from '../pages/PageNotFound';
 import {Navigate, useNavigate} from 'react-router-dom';
 import Marquee from "react-fast-marquee";
 
+
 import { Button, Row, Col } from 'react-bootstrap';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Swal2 from 'sweetalert2';
 
-export default function Landing() {
+export default function AppNavBar() {
 	const navigate = useNavigate();
 
 	const form = useRef();
@@ -35,14 +36,36 @@ export default function Landing() {
 	      });
 	  };
 
+
 	return (
 		<body id="page-top">
-		
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+		    <div class="container">
+		        <a class="navbar-brand nav-link" href="#page-top">
+		            <img class="img-fluid" src={require('../assets/favicon.ico')}></img>
+		                        &nbsp; Tamahome Business Solution
+		        </a>
+		        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+		                            Home
+		                            {/*<i class="fas fa-bars ms-1"></i>*/}
+		        </button>
+		        <div class="collapse navbar-collapse" id="navbarResponsive">
+		            <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+		                            	
+		              	<li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+		                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+		                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+		                <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+		                <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+		            </ul>
+		        </div>
+		    </div>
+		</nav>
 					<header class="masthead expand-lg dark">
 		        	    <div class="container">
 		        	        <div class="masthead-subheading">We Help</div>
 		        	        <div class="masthead-heading text-uppercase">You're in the right place</div>
-		        	        <a class="btn btn-warning btn-lg text-uppercase" href="/services">Tell Me More</a>
+		        	        <a class="btn btn-warning btn-lg text-uppercase" href="#services">Tell Me More</a>
 		        	    </div>
 		        	</header>
 		        	<section class="page-section" id="services">
@@ -57,7 +80,9 @@ export default function Landing() {
 		        	                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
 		        	                    <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
 		        	                </span> 
-		        	                <div class="timeline-image"><img class="rounded-circle img-fluid" src="../assets/img/services/1.jpg" alt="..." />
+		        	                <div class="timeline-image">
+		        	                	<img class="rounded-circle" src={require("../assets/img/services/1.jpg")} width={150} height={150} alt="Responsive image" />
+
 		        	                </div>
 		        	                <h4 class="my-3">Entrepreneurship Coaching</h4>
 		        	                <p class="text-right text-muted ">As professional entrepreneurship coaches we specialize in walking the line between being a cheerleader and a harsh realist. We push you to new heights that are sometimes uncomfortable but are necessary to grow and scale your business. We stick with you through thick and thin and make sure all objectives are growth driven so you start seeing results quickly.</p>
@@ -353,6 +378,7 @@ export default function Landing() {
 		                </form>
 		            </div>
 		        </section>
+					
 		        </body>	
 	)
 

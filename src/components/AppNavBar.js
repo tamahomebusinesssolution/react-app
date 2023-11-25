@@ -76,32 +76,34 @@ export default function AppNavBar() {
 		        	        </div>
 		        	        <div class="row text-center">
 		        	            <div class="col-md-4">
-		        	                 <span class="fa-stack fa-4x">
+		        	                 {/*<span class="fa-stack fa-4x">
 		        	                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
 		        	                    <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-		        	                </span> 
+		        	                </span> */}
 		        	                <div class="timeline-image">
 		        	                	<img class="rounded-circle" src={require("../assets/img/services/1.jpg")} width={150} height={150} alt="Responsive image" />
 
 		        	                </div>
-		        	                <h4 class="my-3">Entrepreneurship Coaching</h4>
-		        	                <p class="text-right text-muted ">As professional entrepreneurship coaches we specialize in walking the line between being a cheerleader and a harsh realist. We push you to new heights that are sometimes uncomfortable but are necessary to grow and scale your business. We stick with you through thick and thin and make sure all objectives are growth driven so you start seeing results quickly.</p>
+		        	                <h4 class="my-3 d-flex">Entrepreneurship Coaching</h4>
+		        	                <p class=".justify-content-center text-muted">As professional entrepreneurship coaches we specialize in walking the line between being a cheerleader and a harsh realist. We push you to new heights that are sometimes uncomfortable but are necessary to grow and scale your business. We stick with you through thick and thin and make sure all objectives are growth driven so you start seeing results quickly.</p>
 		        	            </div>
 		        	            <div class="col-md-4">
-		        	                 <span class="fa-stack fa-4x">
+		        	                 {/*<span class="fa-stack fa-4x">
 		        	                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
 		        	                    <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-		        	                </span> 		                <div class="timeline-image"><img class="rounded-circle img-fluid" src="../assets/img/services/2.jpg" alt="..." />
+		        	                </span> */}		                <div class="timeline-image">
+		        	                <img class="rounded-circle" src={require("../assets/img/services/2.jpg")} width={150} height={150} alt="Responsive image" />
 		        	                </div>
 		        	                <h4 class="my-3">Money and Finance Coaching</h4>
 		        	                <p class="text-muted text-justify">We are reliable money and finance coaches who focus on improving the financial status for both personal or business clients. Our main objective is to address both the black and white numbers, as well as the emotional relationship with money. We’ll also help you come up with a step-by-step plan to help you reach specific financial goals and to have the mindset and habits to support long term financial success.</p>
 		        	            </div>
 		        	            <div class="col-md-4">
-		        	                <span class="fa-stack fa-4x">
+		        	                {/*<span class="fa-stack fa-4x">
 		        	                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
 		        	                    <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-		        	                </span>
-		        	                <div class="timeline-image"><img class="rounded-circle img-fluid" src="../assets/img/services/3.jpg" alt="..." />
+		        	                </span>*/}
+		        	                <div class="timeline-image">
+		        	                <img class="rounded-circle" src={require("../assets/img/services/3.jpg")} width={150} height={150} alt="Responsive image" />
 		        	                </div>
 		        	                <h4 class="my-3">Team Coaching</h4>
 		        	                <p class="text-muted text-justify">As a team coach we drive your team towards accomplishing a goal, whether it be completing a particular project, starting a new business unit or meeting sales efforts. We will help you in confronting and addressing team-busters like groupthink, micromanaging, and unresolved conflict to build a better team for your organization. We will ask questions that help your team to decide what’s best for them.</p>
@@ -124,7 +126,7 @@ export default function AppNavBar() {
 		        	                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
 		        	                        </div>
 		        	                        
-		        	                        <img class="img-fluid" src={require('../assets/img/portfolio/1.jpg')} width={"600px"}  height={250} alt="Responsive image"></img>
+		        	                        <img class="img-fluid" src={require('../assets/img/portfolio/1.jpg')} width={350}  height={250} alt="Responsive image"></img>
 		        	                    </a>
 		        	                    <div class="portfolio-caption">
 		        	                        <div class="portfolio-caption-heading">Human Resource</div>
@@ -140,7 +142,7 @@ export default function AppNavBar() {
 		        	                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
 		        	                        </div>
 		        	                        {/*<img class="img-fluid" src="../assets/img/portfolio/2.jpg" alt="..."  />*/}
-		        	                        <img class="img-fluid" src={require('../assets/img/portfolio/2.jpg')} width={"600px"} height={"50px"} alt="Responsive image"></img>
+		        	                        <img class="img" src={require('../assets/img/portfolio/2.jpg')} width={350}  height={235} alt="Responsive image"></img>
 		        	                    </a>
 		        	                    <div class="portfolio-caption">
 		        	                        <div class="portfolio-caption-heading">Marketing Analysis</div>
@@ -156,7 +158,7 @@ export default function AppNavBar() {
 		        	                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
 		        	                        </div>
 		        	                       {/* <img class="img-fluid" src="../assets/img/portfolio/3.jpg" alt="..."  />*/}
-		        	                       <img class="img-fluid" src={require('../assets/img/portfolio/3.jpg')} width={600} height={250} alt="Responsive image"></img>
+		        	                       <img class="img-fluid" src={require('../assets/img/portfolio/3.jpg')} width={350}  height={250} alt="Responsive image"></img>
 		        	                    </a>
 		        	                    <div class="portfolio-caption">
 		        	                        <div class="portfolio-caption-heading">Accounting</div>
@@ -172,7 +174,7 @@ export default function AppNavBar() {
 		        	                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
 		        	                        </div>
 		        	                        {/*<img class="img-fluid" src="../assets/img/portfolio/4.jpg" alt="..."  />*/}
-		        	                        <img class="img-fluid" src={require('../assets/img/portfolio/4.jpg')} width={600} height={300} alt="Responsive image"></img>
+		        	                        <img class="img-fluid" src={require('../assets/img/portfolio/4.jpg')} width={350}  height={250} alt="Responsive image"></img>
 		        	                   </a>
 		        	                    <div class="portfolio-caption">
 		        	                        <div class="portfolio-caption-heading">Software/IT</div>
@@ -188,7 +190,7 @@ export default function AppNavBar() {
 		        	                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
 		        	                        </div>
 		        	                        {/*<img class="img-fluid " src="../assets/img/portfolio/5.jpg" alt="..."  />*/}
-		        	                        <img class="img-fluid" src={require('../assets/img/portfolio/5.jpg')} width={600} height={300} alt="Responsive image"></img>
+		        	                        <img class="img" src={require('../assets/img/portfolio/5.jpg')} width={350}  height={235} alt="Responsive image"></img>
 		        	                   </a>
 		        	                    <div class="portfolio-caption">
 		        	                        <div class="portfolio-caption-heading">eCommerce</div>
@@ -204,7 +206,7 @@ export default function AppNavBar() {
 		        	                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
 		        	                        </div>
 		        	                        {/*<img class="img-fluid" src="../assets/img/portfolio/6.jpg" alt="..."   />*/}
-		        	                        <img class="img-fluid" src={require('../assets/img/portfolio/6.jpg')} width={600} height={300} alt="Responsive image"></img>
+		        	                        <img class="img" src={require('../assets/img/portfolio/6.jpg')} width={350}  height={235} alt="Responsive image"></img>
 		        	                    </a>
 		        	                    <div class="portfolio-caption">
 		        	                        <div class="portfolio-caption-heading">Operations Strategy</div>
@@ -223,7 +225,8 @@ export default function AppNavBar() {
 		        <ul class="timeline">
 		            <li>
 		                <div class="timeline-image">
-		                    <img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..."  />
+		                    <img class="rounded-circle img-fluid" src={require('../assets/img/about/1.jpg')} width={160}  height={160} alt="Responsive image" />
+		                   
 		                </div>
 		                <div class="timeline-panel">
 		                    <div class="timeline-heading">
@@ -236,7 +239,9 @@ export default function AppNavBar() {
 		                </div>
 		            </li>
 		            <li class="timeline-inverted">
-		                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
+		                <div class="timeline-image">
+		                <img class="rounded-circle img-fluid" src={require('../assets/img/about/2.jpg')} width={160}  height={160} alt="Responsive image" />
+		                </div>
 		                <div class="timeline-panel">
 		                    <div class="timeline-heading">
 		                        <h4>Trust Us</h4>
@@ -246,7 +251,9 @@ export default function AppNavBar() {
 		                </div>
 		            </li>
 		            <li>
-		                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
+		                <div class="timeline-image">
+		                <img class="rounded-circle img-fluid" src={require('../assets/img/about/3.jpg')} width={160}  height={160} alt="Responsive image" />
+		                </div>
 		                <div class="timeline-panel">
 		                    <div class="timeline-heading">
 		                        <h4></h4>
@@ -256,7 +263,9 @@ export default function AppNavBar() {
 		                </div>
 		            </li>
 		            <li class="timeline-inverted">
-		                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
+		                <div class="timeline-image">
+		                <img class="rounded-circle img-fluid" src={require('../assets/img/about/4.jpg')} width={160}  height={160} alt="Responsive image" />
+		                </div>
 		                <div class="timeline-panel">
 		                    <div class="timeline-heading">
 		                        <h4></h4>
@@ -293,7 +302,7 @@ export default function AppNavBar() {
 		        <div class="row">
 		            <div class="col-lg-4">
 		                <div class="team-member">
-		                    <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
+		                    <img class="rounded-circle img-fluid" src={require('../assets/img/team/1.jpg')} width={160}  height={160} alt="Responsive image" />
 		                    <h4>Cielo Mae Franco</h4>
 		                    <p class="text-muted">CEO, Talent Aquisition, Business Research</p>
 		                    <p class="text-muted">Cielo is an award winning coach who has helped over 25+ businesses start and flourish online. She loves interacting and making friends.</p>
@@ -304,7 +313,7 @@ export default function AppNavBar() {
 		            </div>
 		            <div class="col-lg-4">
 		                <div class="team-member">
-		                    <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
+		                    <img class="rounded-circle img-fluid" src={require('../assets/img/team/2.jpg')} width={160}  height={160} alt="Responsive image" />
 		                    <h4>Fraulein Ducta</h4>
 		                    <p class="text-muted">CEO, Lead Marketing/Finance</p>
 		                    <p class="text-muted">Fraulein is a well-established business Marketing coach for a year. Her way of coaching and guiding reflects his helpful and friendly nature.</p>
@@ -315,7 +324,7 @@ export default function AppNavBar() {
 		            </div>
 		            <div class="col-lg-4">
 		                <div class="team-member">
-		                    <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
+		                    <img class="rounded-circle img-fluid" src={require('../assets/img/team/3.jpg')} width={160}  height={160} alt="Responsive image" />
 		                    <h4>Mark Joseph Oh</h4>
 		                    <p class="text-muted">CEO, Lead Developer</p>
 		                    <p class="text-muted">One of the top and expert in helping IT businesses grow, Mark has been a friend and guide to many budding entrepreneurs</p>
@@ -346,27 +355,27 @@ export default function AppNavBar() {
 		                    <div class="row align-items-stretch mb-5">
 		                        <div class="col-md-6">
 		                            <div class="form-group">
-		                                {/*<!-- Name input-->*/}
+		                               
 		                                
 		                                <input class="form-control" name="user_name" id="name" type="text" placeholder="Your Name *" validations="required" />
 		                                <div class="invalid-feedback" feedback="name:required">A name is required.</div>
 		                            </div>
 		                            <div class="form-group">
-		                                {/*<!-- Email address input-->*/}
+		                             
 		                                
 		                                <input class="form-control" name="user_email" id="email" type="email" placeholder="Your Email *" validations="required,email" />
 		                                <div class="invalid-feedback" feedback="email:required">An email is required.</div>
 		                                <div class="invalid-feedback" feedback="email:email">Email is not valid.</div>
 		                            </div>
 		                            <div class="form-group mb-md-0">
-		                                {/*<!-- Phone number input-->*/}
+		                           
 		                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" validations="required" />
 		                                <div class="invalid-feedback" feedback="phone:required">A phone number is required.</div>
 		                            </div>
 		                        </div>
 		                        <div class="col-md-6">
 		                            <div class="form-group form-group-textarea mb-md-0">
-		                                {/*<!-- Message input-->*/}
+		                         
 		                                <textarea class="form-control" name="message" id="message" placeholder="Your Message *" validations="required"></textarea>
 		                                <div class="invalid-feedback" feedback="message:required">A message is required.</div>
 		                            </div>
@@ -378,8 +387,248 @@ export default function AppNavBar() {
 		                </form>
 		            </div>
 		        </section>
-					
-		        </body>	
+				 
+				    <footer class="footer py-4">
+				        <div class="container">
+				            <div class="row align-items-center">
+				                <div class="col-lg-4 text-lg-start">Copyright &copy; Louie R. Franco@2023
+				                </div>
+				                <div class="col-lg-4 my-3 my-lg-0">
+				                   	<a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+				                   	<a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+				                   	<a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+				                </div>
+				                <div class="col-lg-4 text-lg-end">
+				                   	<a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+				                   	<a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+				                </div>
+				            </div>
+				        </div>
+				    </footer>
+			
+				    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+				        <div class="modal-dialog">
+				            <div class="modal-content">
+				                <div class="close-modal" data-bs-dismiss="modal">
+				                <img src={require("../assets/img/close.png")} alt="Close modal" /></div>
+				                <div class="container">
+				                    <div class="row justify-content-center">
+				                        <div class="col-lg-8">
+				                            <div class="modal-body">
+				                              
+				                                <h2 class="text-uppercase">Human Resources</h2>
+				                                <p class="item-intro text-muted">Everything starts with an idea.</p>
+				                                <img class="img-fluid d-block mx-auto" src={require("../assets/img/portfolio/1.jpg")} alt="Responsive image"/>
+				                                <p>We summarize the approach and purpose of your project and help to focus your research. We describe the objectives of what your research is trying to achieve and explain wether you pursue.</p>
+				                                <ul class="list-inline">
+				                                    <li>
+				                                        <strong>Client:</strong>
+				                                        Threads
+				                                    </li>
+				                                    <li>
+				                                        <strong>Category:</strong>
+				                                        Illustration
+				                                    </li>
+				                                </ul>
+				                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+				                                    <i class="fas fa-xmark me-1"></i>
+				                                    Close Project
+				                                </button>
+				                            </div>
+				                        </div>
+				                    </div>
+				                </div>
+				            </div>
+				        </div>
+				    </div>
+				   
+				    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+				        <div class="modal-dialog">
+				            <div class="modal-content">
+				                <div class="close-modal" data-bs-dismiss="modal">
+				                <img src={require("../assets/img/close.png")} alt="Close modal" /></div>
+				                <div class="container">
+				                    <div class="row justify-content-center">
+				                        <div class="col-lg-8">
+				                            <div class="modal-body">
+				                              
+				                                <h2 class="text-uppercase">Marketing Analysis</h2>
+				                                <p class="item-intro text-muted">We help to understand your customers, competitors, and industry trends.</p>
+				                                <img class="img-fluid d-block mx-auto" src={require("../assets/img/portfolio/2.jpg")} alt="Responsive image"/>
+				                                <p>We help identify target market, unique value proposition, and competitive advantages.Informed decisions, optimize marketing strategies, and achieve your goals.</p>
+				                                <ul class="list-inline">
+				                                    <li>
+				                                        <strong>Client:</strong>
+				                                        Explore
+				                                    </li>
+				                                    <li>
+				                                        <strong>Category:</strong>
+				                                        Graphic Design
+				                                    </li>
+				                                </ul>
+				                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+				                                    <i class="fas fa-xmark me-1"></i>
+				                                    Close Project
+				                                </button>
+				                            </div>
+				                        </div>
+				                    </div>
+				                </div>
+				            </div>
+				        </div>
+				    </div>
+				  
+				    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+				        <div class="modal-dialog">
+				            <div class="modal-content">
+				                <div class="close-modal" data-bs-dismiss="modal">
+				                <img src={require("../assets/img/close.png")} alt="Close modal" /></div>
+				                <div class="container">
+				                    <div class="row justify-content-center">
+				                        <div class="col-lg-8">
+				                            <div class="modal-body">
+				                              
+				                                <h2 class="text-uppercase">Accounting</h2>
+				                                <p class="item-intro text-muted">Data entry is the foundation of bookkeeping.</p>
+				                                <img class="img-fluid d-block mx-auto" src={require("../assets/img/portfolio/3.jpg")} alt="Responsive image"/>
+				                                <p>We can do bookkeeping or outsource to professionals. We look at how to find a good balance.</p>
+				                                <ul class="list-inline">
+				                                    <li>
+				                                        <strong>Client:</strong>
+				                                        Finish
+				                                    </li>
+				                                    <li>
+				                                        <strong>Category:</strong>
+				                                        Identity
+				                                    </li>
+				                                </ul>
+				                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+				                                    <i class="fas fa-xmark me-1"></i>
+				                                    Close Project
+				                                </button>
+				                            </div>
+				                        </div>
+				                    </div>
+				                </div>
+				            </div>
+				        </div>
+				    </div>
+				  
+				    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+				        <div class="modal-dialog">
+				            <div class="modal-content">
+				                <div class="close-modal" data-bs-dismiss="modal">
+				                <img src={require("../assets/img/close.png")} alt="Close modal" /></div>
+				                <div class="container">
+				                    <div class="row justify-content-center">
+				                        <div class="col-lg-8">
+				                            <div class="modal-body">
+				                              
+				                                <h2 class="text-uppercase">Software</h2>
+				                                <p class="item-intro text-muted">SEO/Web Developer/System Design/Software Testing</p>
+				                                <img class="img-fluid d-block mx-auto" src={require("../assets/img/portfolio/4.jpg")} alt="Responsive image"/>
+				                                <p>create aesthetically pleasing website designs with functional, user-friendly design and clear navigation for optimal usability. Building and optimizing a secure web page for evolving business needs.</p>
+				                                <ul class="list-inline">
+				                                    <li>
+				                                        <strong>Client:</strong>
+				                                        Lines
+				                                    </li>
+				                                    <li>
+				                                        <strong>Category:</strong>
+				                                        Branding
+				                                    </li>
+				                                </ul>
+				                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+				                                    <i class="fas fa-xmark me-1"></i>
+				                                    Close Project
+				                                </button>
+				                            </div>
+				                        </div>
+				                    </div>
+				                </div>
+				            </div>
+				        </div>
+				    </div>
+			
+				    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+				        <div class="modal-dialog">
+				            <div class="modal-content">
+				                <div class="close-modal" data-bs-dismiss="modal">
+				                <img src={require("../assets/img/close.png")} alt="Close modal" /></div>
+				                <div class="container">
+				                    <div class="row justify-content-center">
+				                        <div class="col-lg-8">
+				                            <div class="modal-body">
+				                               
+				                                <h2 class="text-uppercase">eCommerce</h2>
+				                                <p class="item-intro text-muted">Best practices for effective customer service.</p>
+				                                <img class="img-fluid d-block mx-auto" src={require("../assets/img/portfolio/5.jpg")} alt="Responsive image"/>
+				                                <p>We’re always on the lookout for ecommerce businesses and Help Scout customers who are growing their companies with purpose.</p>
+				                                <ul class="list-inline">
+				                                    <li>
+				                                        <strong>Client:</strong>
+				                                        Southwest
+				                                    </li>
+				                                    <li>
+				                                        <strong>Category:</strong>
+				                                        Website Design
+				                                    </li>
+				                                </ul>
+				                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+				                                    <i class="fas fa-xmark me-1"></i>
+				                                    Close Project
+				                                </button>
+				                            </div>
+				                        </div>
+				                    </div>
+				                </div>
+				            </div>
+				        </div>
+				    </div>
+				
+				    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+				        <div class="modal-dialog">
+				            <div class="modal-content">
+				                <div class="close-modal" data-bs-dismiss="modal">
+				                <img src={require("../assets/img/close.png")} alt="Close modal" /></div>
+				                <div class="container">
+				                    <div class="row justify-content-center">
+				                        <div class="col-lg-8">
+				                            <div class="modal-body">
+				                               
+				                                <h2 class="text-uppercase">Operation Strategy</h2>
+				                                <p class="item-intro text-muted">With our strategy, company can manage its supply chain better and create products faster to improve its competitive position</p>
+				                                <img class="img-fluid d-block mx-auto" src={require("../assets/img/portfolio/6.jpg")} alt="Responsive image"/>
+								                <p>competency strategies, Corporate strategies, Competitive strategies, Product or service strategies and Customer-driven strategies are strategies that identify and implement cost-effective processes for creating and distributing products and services.</p>
+				                                <ul class="list-inline">
+				                                    <li>
+				                                        <strong>Client:</strong>
+				                                        Window
+				                                    </li>
+				                                    <li>
+				                                        <strong>Category:</strong>
+				                                        Photography
+				                                    </li>
+				                                </ul>
+				                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+				                                    <i class="fas fa-xmark me-1"></i>
+				                                    Close Project
+				                                </button>
+				                            </div>
+				                        </div>
+				                    </div>
+				                </div>
+				            </div>
+				        </div>
+				    </div>
+			
+				    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+		
+				    <script src="js/scripts.js"></script>
+		
+				   
+				</body>	
+		      
 	)
 
 }
