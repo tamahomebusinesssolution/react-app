@@ -65,7 +65,7 @@ export default function AppNavBar() {
 		        	    <div class="container">
 		        	        <div class="masthead-subheading">We Help</div>
 		        	        <div class="masthead-heading text-uppercase">You're in the right place</div>
-		        	        <a class="btn btn-warning btn-lg text-uppercase" href="/services">Tell Me More</a>
+		        	        <a class="btn btn-warning btn-lg text-uppercase" href="#services">Tell Me More</a>
 		        	    </div>
 		        	</header>
 		        	<section class="page-section" id="services">
