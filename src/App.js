@@ -3,28 +3,17 @@ import { Container } from 'react-bootstrap';
 import AppNavBar from './components/AppNavBar';
 // import Banner from './components/Banner';
 // import Highlights from './components/Highlights';
-import Services from './pages/Services';
+
 import Home from './pages/Home';
-import Portfolio from './pages/Portfolio';
-import About from './pages/About';
-import Team from './pages/Team';
+
 import PageNotFound from './pages/PageNotFound';
-import RetrieveAllProduct from './pages/RetrieveAllProduct';
+
 import {useState, useEffect} from 'react';
-import Contact from './pages/Contact';
-import ProductView from './components/ProductView';
+
 import AppFooter from './components/AppFooter';
 //import the UserProvider from the UserContext to provide the content or value of our UserContext
 import { UserProvider } from './UserContext';
 
-import Customers from "./pages/Customers";
-import Dashboard from "./pages/Dashboard";
-import Inventory from "./pages/UpdateProductModal";
-import Orders from "./pages/Orders";
-import EmpListing from "./pages/EmpListing";
-import ReactAppBasic from "./ReactAppBasic";
-import EditUser from "./pages/EditUser";
-import UpdateProductModal from "./pages/UpdateProductModal";
 import './App.css';
 import './index.css';
 //import necessary modules from react-router-dom that will be used for the routing
@@ -82,22 +71,7 @@ function App() {
           <Container>
             <Routes>
               <Route path ='/' element = {<Home/>}/>
-              <Route path = '/services' element = {<Services/>}/>
-              <Route path ='/portfolio' element = {<Portfolio/>}/>
-              <Route path = '/about' element = {<About/>} />
-              <Route path = '/team' element = {<Team/>} />
-              <Route path = '/contact' element = {<Contact/>}/>
-              
-      
-              <Route path = '*' element = {<PageNotFound/>} />
-              <Route path='/' element = {<Dashboard />}></Route>
-              <Route path='/inventory' element = {<Inventory />}></Route>
-              <Route path='/orders' element = {<Orders />}></Route>
-              <Route path='/customers' element = {<Customers />}></Route>
-              <Route path='/empListing' element = {<EmpListing />}></Route>
-              <Route path='/basic' element = {<ReactAppBasic />}></Route>
-              <Route path='/editUser/:id' element = {<EditUser />}></Route>
-              <Route path='/updateProduct/:id' element = {<UpdateProductModal />}></Route>
+  
             </Routes>
             
          </Container>

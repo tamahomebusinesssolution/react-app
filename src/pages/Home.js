@@ -1,13 +1,12 @@
 import { Fragment } from 'react';
-import Banner from '../components/Banner';
-import AppNavBar from '../components/AppNavBar';
+import Landing from '../components/Landing';
+
 
 export default function Home(){
 	
 	return (
 		<Fragment>
-			
-			<AppNavBar />
+			<Landing />
 		</Fragment>
 	)
 }
